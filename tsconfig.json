@@ -20,5 +20,12 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+   "compilerOpti`enter code here`ons": {
+     "lib": ["es6", "dom"],
+     "noImplicitAny": true,
+     "noImplicitThis": true,
+     "strictNullChecks": true
+   },
    "include": ["src", "src/@types"]
 }
+
