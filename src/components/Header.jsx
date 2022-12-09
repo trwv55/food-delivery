@@ -8,21 +8,24 @@ const useStyles = makeStyles((theme) =>
   createStyles({
     navlinks: {
       display: "flex",
-      marginLeft: theme.spacing(50),
+      marginLeft: theme.spacing(95),
+      marginRight: theme.spacing(10),
     },
     links: {
       color: "#28224B",
       fontSize: "17px",
       justifyContent: "flex-end",
       marginLeft: theme.spacing(10),
+
       "&:hover": {
         color: "#35B8BE",
         borderBottom: "1px solid white",
       },
     },
     logo: {
-      flexGrow: "1",
+      // flexGrow: "1",
       cursor: "pointer",
+      marginLeft: theme.spacing(10),
     },
     shopCart: {
       marginLeft: theme.spacing(5),
@@ -34,7 +37,7 @@ const useStyles = makeStyles((theme) =>
 const Header = ({ handleCart }) => {
   const classes = useStyles();
   return (
-    <AppBar className='header-wrapper' position='fixed' sx={{ background: "#ffffff" }}>
+    <AppBar className='header-wrapper' position='static' sx={{ background: "#ffffff" }}>
       <Toolbar>
         <a href='/' className={classes.logo}>
           <img src={Logo} alt='logo' />
