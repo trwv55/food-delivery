@@ -16,10 +16,14 @@ const MainScreen = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam excepturi
               laudantium quos nostrum assumenda quod minima possimus impedit molestiae?
             </p>
-            <Button variant='contained' sx={{ background: "#35B8BE" }}>
+
+            <Button
+              variant='contained'
+              sx={{ background: "#35B8BE", height: "60px", width: "193px" }}>
               Place an Order
             </Button>
-            <h6>Trustpilot</h6>
+
+            <h4>Trustpilot</h4>
             <p className='main-app'>
               <span>4.8 out of 5</span> based on 2000+ reviews
             </p>

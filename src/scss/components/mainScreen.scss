@@ -1,7 +1,7 @@
-@import "./variables.scss";
+@import "../variables.scss";
 
 .main-wrapper {
-  background-image: url("../static/images/main-bc.png");
+  background-image: url("../../static/images/main-bc.png");
   background-repeat: no-repeat;
   background-size: cover;
   .main-parts {
@@ -27,6 +27,15 @@
         color: #546285;
         margin-top: 27px;
         margin-bottom: 53px;
+      }
+      h4 {
+        padding-top: 30px;
+      }
+      .main-app {
+        padding-top: 10px;
+        span {
+          color: $siteColor;
+        }
       }
     }
   }

@@ -1,6 +1,8 @@
 @import "./normalize.scss";
 @import "./variables.scss";
-@import "./mainScreen.scss";
+@import "./components/mainScreen.scss";
+@import "./components/freshProducts.scss";
+@import "./components/menu.scss";
 
 *,
 *::after,

@@ -3,6 +3,8 @@ import "./scss/app.scss";
 import Header from "./components/Header";
 import ShoppingCart from "./components/ShoppingCart";
 import MainScreen from "./components/MainScreen";
+import FreshProducts from "./components/FreshProducts";
+import Menu from "./components/Menu";
 
 function App() {
   const [cartOpen, setCartOpen] = useState(false);
@@ -12,7 +14,8 @@ function App() {
       <Header handleCart={() => setCartOpen(true)} />
 
       <MainScreen />
-
+      <FreshProducts />
+      <Menu />
       <ShoppingCart cartOpen={cartOpen} closeCart={() => setCartOpen(false)} />
     </div>
   );

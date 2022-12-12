@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+.fresh-wrapper {
+  background-image: url("../../static/images/fresh-bc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .fresh-content {
+    display: flex;
+
+    padding-top: 140px;
+    padding-bottom: 140px;
+    .fresh-left {
+      flex-basis: 524px;
+      margin-right: 70px;
+      .fresh-title {
+        color: $siteColor;
+        font-weight: 400;
+        font-size: 51px;
+        line-height: 55px;
+        letter-spacing: 1.65px;
+        padding-top: 150px;
+      }
+      .fresh-text {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.36px;
+        color: #546285;
+        margin-top: 29px;
+      }
+    }
+  }
+}
