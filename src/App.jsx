@@ -5,6 +5,7 @@ import ShoppingCart from "./components/ShoppingCart";
 import MainScreen from "./components/MainScreen";
 import FreshProducts from "./components/FreshProducts";
 import Menu from "./components/Menu";
+import SupportLocal from "./components/SupportLocal";
 
 function App() {
   const [cartOpen, setCartOpen] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <MainScreen />
       <FreshProducts />
       <Menu />
+      <SupportLocal />
       <ShoppingCart cartOpen={cartOpen} closeCart={() => setCartOpen(false)} />
     </div>
   );
