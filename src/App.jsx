@@ -6,6 +6,7 @@ import MainScreen from "./components/MainScreen";
 import FreshProducts from "./components/FreshProducts";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
+import LocalFood from "./components/LocalFood";
 
 function App() {
   const [cartOpen, setCartOpen] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       <MainScreen />
       <FreshProducts />
       <Menu />
+      <LocalFood />
       <Footer />
       <ShoppingCart cartOpen={cartOpen} closeCart={() => setCartOpen(false)} />
     </div>
