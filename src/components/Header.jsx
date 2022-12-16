@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Badge } from "@mui/material";
-import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
+import { makeStyles, createStyles } from "@material-ui/core/styles";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Logo from "../static/images/logo-head.svg";
 

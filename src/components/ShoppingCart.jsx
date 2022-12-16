@@ -1,4 +1,3 @@
-// import { Drawer } from "@mui/material";
 import { Divider, Drawer, List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { makeStyles } from "@material-ui/core/styles";
