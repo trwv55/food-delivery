@@ -1,6 +1,6 @@
 import { Grid, makeStyles, Typography } from "@material-ui/core";
 import { Box } from "@mui/material";
-import { Container } from "@mui/system";
+import Container from "@mui/material/Container";
 import { Button } from "@mui/material";
 import React from "react";
 import Local from "../static/images/local.png";

@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import MainRight from "../static/images/main-right.png";
-import { Container } from "@mui/system";
+import Container from "@mui/material/Container";
 
 const MainScreen = () => {
   return (

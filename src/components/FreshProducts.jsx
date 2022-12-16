@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import { Container } from "@mui/system";
+import Container from "@mui/material/Container";
 import React from "react";
 import screenTwo from "../static/images/freshProducts.png";
 
